@@ -68,6 +68,8 @@ export default function Home() {
                   height={60}
                   className="inline mr-4 mb-4 drop-shadow-md"
                   style={{ mixBlendMode: 'multiply' }}
+                  priority
+                  sizes="60px"
                 />
                 Elevate Your Brand Visibility in Lucknow
               </h1>
@@ -208,6 +210,8 @@ export default function Home() {
                 alt="Our team working on outdoor advertising"
                 fill
                 className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                loading="lazy"
               />
             </div>
           </div>

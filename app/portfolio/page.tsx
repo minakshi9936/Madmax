@@ -80,7 +80,7 @@ export default function Portfolio() {
 
   return (
     <>
-      <section className="bg-gradient-to-br from-primary to-primary-900 text-white py-20">
+      <section className="bg-gradient-to-br from-primary to-accent text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Portfolio</h1>
           <p className="text-xl text-blue-100 max-w-3xl mx-auto">

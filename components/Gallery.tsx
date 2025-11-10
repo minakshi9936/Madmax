@@ -61,6 +61,8 @@ export default function Gallery() {
                   width={400}
                   height={300}
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  loading="lazy"
                 />
               </div>
               <div
