@@ -8,7 +8,7 @@ export default function Services() {
       id: 'hoardings',
       title: 'Hoarding Advertising',
       description: 'Dominate the skyline with our premium hoarding advertising solutions. We offer strategic placements in high-traffic areas to maximize your brand visibility.',
-      image: 'https://images.pexels.com/photos/3789871/pexels-photo-3789871.jpeg',
+      image: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762840810/hoardings_cdc9c8.jpg',
       features: [
         'Prime location networks across major cities',
         'Large format displays (up to 40x60 feet)',
@@ -21,7 +21,7 @@ export default function Services() {
       id: 'banners',
       title: 'Banner Printing',
       description: 'High-quality vinyl banner printing for all your outdoor and indoor advertising needs. Perfect for events, store promotions, and temporary campaigns.',
-      image: 'https://images.pexels.com/photos/1046641/pexels-photo-1046641.jpeg',
+      image: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762840826/banner_lfc52u.jpg',
       features: [
         'Custom sizes up to 50 feet wide',
         'UV-resistant, weatherproof materials',
@@ -34,7 +34,7 @@ export default function Services() {
       id: 'signage',
       title: 'Digital Signage',
       description: 'Modern LED displays and digital screens that bring your content to life. Dynamic, programmable advertising for maximum engagement and flexibility.',
-      image: 'https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg',
+      image: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762841182/ds_ynbxq4.avif',
       features: [
         'Full HD and 4K resolution displays',
         'Remote content management system',
@@ -47,7 +47,7 @@ export default function Services() {
       id: 'transit',
       title: 'Transit Advertising',
       description: 'Mobile advertising solutions including bus wraps, taxi toppers, and transit shelter displays. Reach audiences on the move with creative transit media.',
-      image: 'https://images.pexels.com/photos/2842853/pexels-photo-2842853.jpeg',
+      image: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762844218/auto_blfvjo.png',
       features: [
         'Full and partial vehicle wraps',
         'Bus shelter advertising',
@@ -60,7 +60,7 @@ export default function Services() {
       id: 'street',
       title: 'Street Furniture',
       description: 'Eye-level advertising on bus shelters, kiosks, and public benches. Perfect for localized campaigns and neighborhood targeting.',
-      image: 'https://images.pexels.com/photos/2882552/pexels-photo-2882552.jpeg',
+      image: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762845321/ADD_ho4roq.png',
       features: [
         'Bus shelter panels',
         'Information kiosks',
@@ -73,7 +73,7 @@ export default function Services() {
       id: 'custom',
       title: 'Custom Solutions',
       description: 'Tailored advertising solutions for unique campaigns and special requirements. Our team works with you to create innovative outdoor advertising experiences.',
-      image: 'https://images.pexels.com/photos/6044266/pexels-photo-6044266.jpeg',
+      image: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762846337/custom-ad_yoe0aq.png',
       features: [
         'Building wraps and murals',
         '3D installations',
@@ -134,7 +134,7 @@ export default function Services() {
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                   />
                 </div>
               </div>

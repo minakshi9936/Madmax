@@ -64,12 +64,12 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="relative h-96 rounded-lg overflow-hidden shadow-xl">
+            <div className="relative h-96 rounded-lg bg-orange-200 overflow-hidden shadow-xl">
               <Image
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg"
+                src="https://res.cloudinary.com/dh9uxczld/image/upload/v1762838294/madmax-owner_byx24e.jpg"
                 alt="Mr. Vinod Bansal - Proprietor & Head of Advertising"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           </div>

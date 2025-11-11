@@ -28,19 +28,19 @@ export default function Home() {
     {
       title: 'Hoarding Advertising',
       description: 'Large-scale outdoor billboards in prime locations for maximum visibility and brand impact.',
-      image: 'https://images.pexels.com/photos/3789871/pexels-photo-3789871.jpeg',
+      image: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762840810/hoardings_cdc9c8.jpg',
       href: '/services#hoardings',
     },
     {
       title: 'Banner Printing',
       description: 'High-quality vinyl banners in all sizes, perfect for events, promotions, and storefront displays.',
-      image: 'https://images.pexels.com/photos/1046641/pexels-photo-1046641.jpeg',
+      image: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762840826/banner_lfc52u.jpg',
       href: '/services#banners',
     },
     {
       title: 'Digital Signage',
       description: 'Modern LED displays and digital screens for dynamic, eye-catching advertising campaigns.',
-      image: 'https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg',
+      image: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762841182/ds_ynbxq4.avif',
       href: '/services#signage',
     },
   ];

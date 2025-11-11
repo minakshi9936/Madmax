@@ -5,28 +5,28 @@ import { ArrowRight } from 'lucide-react';
 export default function Gallery() {
   const galleryImages = [
     {
-      src: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg',
-      alt: 'Billboard advertising example',
+      src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762840810/hoardings_cdc9c8.jpg',
+    
     },
     {
-      src: 'https://images.pexels.com/photos/3789871/pexels-photo-3789871.jpeg',
-      alt: 'Outdoor signage display',
+      src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762845321/ADD_ho4roq.png',
+     
     },
     {
-      src: 'https://images.pexels.com/photos/1046641/pexels-photo-1046641.jpeg',
-      alt: 'Banner printing sample',
+      src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762840826/banner_lfc52u.jpg',
+      
     },
     {
-      src: 'https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg',
-      alt: 'Digital signage installation',
+      src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762841182/ds_ynbxq4.avif',
+      
     },
     {
-      src: 'https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg',
-      alt: 'Team working on outdoor advertising',
+      src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762844218/auto_blfvjo.png',
+      
     },
     {
       src: 'https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg',
-      alt: 'Urban billboard placement',
+      
     },
   ];
 
@@ -60,7 +60,7 @@ export default function Gallery() {
                   alt={image.alt}
                   width={400}
                   height={300}
-                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                  className="w-full h-64 object-contain transition-transform duration-300 group-hover:scale-110"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   loading="lazy"
                 />
