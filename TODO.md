@@ -1,0 +1,1 @@
+- [x] Add favicon to Next.js app using public/Madmax-logoo.png

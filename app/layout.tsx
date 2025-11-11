@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'MADMAX - Professional Outdoor Advertising Solutions',
   description: 'Leading provider of outdoor advertising services including hoardings, banners, and digital signage.',
+  icons: {
+    icon: '/Madmax-logoo.png',
+  },
 };
 
 export default function RootLayout({
