@@ -2,31 +2,36 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
+interface GalleryImage {
+  src: string;
+  alt: string;
+}
+
 export default function Gallery() {
-  const galleryImages = [
+  const galleryImages: GalleryImage[] = [
     {
       src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762840810/hoardings_cdc9c8.jpg',
-    
+      alt: 'Outdoor hoarding advertisement showcasing rooftop billboard',
     },
     {
       src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762845321/ADD_ho4roq.png',
-     
+      alt: 'Advertising display on building facade',
     },
     {
       src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762840826/banner_lfc52u.jpg',
-      
+      alt: 'Promotional banner for advertising campaign',
     },
     {
       src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762841182/ds_ynbxq4.avif',
-      
+      alt: 'Digital signage display for outdoor marketing',
     },
     {
       src: 'https://res.cloudinary.com/dh9uxczld/image/upload/v1762844218/auto_blfvjo.png',
-      
+      alt: 'Vehicle branding and auto advertising example',
     },
     {
       src: 'https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg',
-      
+      alt: 'Creative outdoor advertising installation',
     },
   ];
 
